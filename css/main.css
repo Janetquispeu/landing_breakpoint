@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+section{
+	width: 100%;
+	background-color: #808080;
+}
+footer{
+	padding-left: 20%;
+}
+img{
+	width: 60%;
+	float: left;
+}
+nav{
+	width: 100%;
+	padding:6% 0% 0% 16%;
+	float: left;
+}
+nav a{
+	text-transform: uppercase;
+	font-size: 80%;
+	color: #B7B9BC;
+	text-decoration: none;
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+form{
+	width: 50%;
+	background-color: #9A9A9A;
+	border-radius: 5px;
+	padding: 3% 3% 4% 3%; 
+}
+input{
+	width: 100%;
+	margin: 3% 0% 0.3% 0%;
+	padding: 1% 0% 3% 0%;
+}
+h3{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-family: arial;
+}
+p{
+	color: #B7B9BC;
+}
+.row-header{
+	padding-left: 20%;
+}
+.row-body{
+	padding-left: 20%;
+}
+#title-bh{
+	width: 99%;
+	font-size: 278%;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: white;
+	margin: 14% 0% 5% 0%;
+}
+#texto1{
+	width: 85%;
+	font-size: 85%;
+	color: white;
+	margin: 7% 0% 10% 0%;
+	text-align: justify;
+}
+#formulario{
+	width: 100%;
+	margin: 14% 0% 0% 0%;
+}
+#suscribe{
+	background-color: #3EB0F7;
+	border: 2px solid #3EB0F7;
+	color: white;
+}
+.nk{
+	text-decoration: none;
+	color: blue;
+	text-transform: 
+}
+@media(max-width: 535px){
+	.row-header{
+		padding-left: 4%;
+	}
+	nav{
+		width: 100%;
+		padding: 1% 0% 0% 30%;
+	}
+	nav a{
+		padding: 0% 4% 0% 4%;
+	}
+	.col-6 .logo{
+		width: 50%;
+	}
+	.menu{
+		width: 50%;
+	}
+	.text{
+		width: 100%;
+	}
+	#formulario{
+		width: 100%;
+	}
+	form{
+		width: 100%;
+	}
+	#title-bh{
+		width: 99%;
+		font-size: 360%;
+	}
+	.row-body{
+		padding: 0% 4% 13% 4%;
+	}
+	#grilla_6{
+		width: 100%;
+	}
+	#texto1{
+		width: 100%;
+		text-align: left;
+		margin-bottom: 0px;
+		font-size: 120%;
+	}
+	footer{
+		padding-left: 4%;
+	}
+
+
+}
